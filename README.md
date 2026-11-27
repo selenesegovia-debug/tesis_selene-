@@ -18,6 +18,8 @@ Para entrar a Estados Unidos, la fruta de áreas con *Lobesia botrana* (polilla 
 
 La **atmósfera controlada (AC)** reduce el deterioro, pero su efecto varía entre cultivares. Y hay un vacío que este trabajo busca abordar: hasta donde pude revisar, **no hay estudios en arándano que comparen fumigar en origen vs. en destino**, algo que cambia cuánto tiempo tiene la fruta para manifestar el daño. Además, la industria está renovando sus variedades (los cultivares nuevos fueron el 24 % de las exportaciones 2025/26), por lo que entender cómo responden a estos tratamientos tiene valor práctico inmediato.
 
+![arandano](arandanos. jpeg)
+
 ## Pregunta y objetivo
 
 **Objetivo general.** Determinar el efecto de la fumigación con BM, aplicada en origen o en destino, sobre la calidad postcosecha de ‘Sekoya Grande’ y ‘Luna’ almacenados en AC (12 % CO₂, 6 % O₂) a 0 °C durante 35 días, seguidos de 2 días a 5 °C y 2 días a 10 °C (comercialización simulada).
