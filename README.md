@@ -18,7 +18,7 @@ Para entrar a Estados Unidos, la fruta de áreas con *Lobesia botrana* (polilla 
 
 La **atmósfera controlada (AC)** reduce el deterioro, pero su efecto varía entre cultivares. Y hay un vacío que este trabajo busca abordar: hasta donde pude revisar, **no hay estudios en arándano que comparen fumigar en origen vs. en destino**, algo que cambia cuánto tiempo tiene la fruta para manifestar el daño. Además, la industria está renovando sus variedades (los cultivares nuevos fueron el 24 % de las exportaciones 2025/26), por lo que entender cómo responden a estos tratamientos tiene valor práctico inmediato.
 
-![arandano](aradanos .jepg)
+![arandano](arandanoss.jpg)
 
 ## Pregunta y objetivo
 
