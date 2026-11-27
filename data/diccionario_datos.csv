@@ -1,0 +1,48 @@
+archivo,variable,nivel,tipo,unidad,descripcion,instrumento_metodo,rol
+cajas,caja_id,caja,texto,—,Identificador de caja (C01-C24 experimentales; B01-B06 base),Script 00,—
+cajas,tipo,caja,categoría,—,experimental | base,Script 00,—
+cajas,cultivar,caja,categoría,—,Sekoya Grande | Luna,Diseño,Factor
+cajas,momento,caja,categoría,—,Momento de fumigación: origen | destino (vacío en cajas base),Diseño,Factor
+cajas,bm,caja,categoría,—,con | sin bromuro de metilo (vacío en cajas base),Diseño,Factor
+cajas,pos_fumigacion,caja,entero,—,Posición aleatoria dentro de la cámara de fumigación,Script 00,Trazabilidad
+cajas,pos_AC,caja,entero,—,Posición aleatoria dentro de la cámara de AC,Script 00,Trazabilidad
+cajas,SST_pct,caja,numérico,%,Sólidos solubles totales del jugo compuesto,Refractómetro Atago PR-100; AOAC 932.12,Secundaria
+cajas,vol_NaOH_mL,caja,numérico,mL,"Volumen de NaOH 0,1 mol/L gastado en la titulación (5 mL jugo + 150 mL agua)",AOAC 942.15,Secundaria
+cajas,n_frutos_firmeza,caja,entero,frutos,Frutos efectivamente medidos en firmeza,Registro,Control
+cajas,n_frutos_color,caja,entero,frutos,Frutos efectivamente medidos en color interno,Registro,Control
+cajas,observaciones,caja,texto,—,Notas libres,Registro,—
+clamshells_peso,caja_id,clamshell,texto,—,Caja a la que pertenece,—,—
+clamshells_peso,clamshell_id,clamshell,entero,—,1 a 6 (los de pesaje),—,—
+clamshells_peso,peso_t0_g,clamshell,numérico,g,Peso antes del almacenamiento,Balanza Ohaus SC 6010,—
+clamshells_peso,peso_35d_g,clamshell,numérico,g,Peso tras 35 días a 0 °C en AC,Balanza Ohaus SC 6010,—
+clamshells_peso,peso_5C_g,clamshell,numérico,g,Peso tras 2 días a 5 °C,Balanza Ohaus SC 6010,—
+clamshells_peso,peso_10C_g,clamshell,numérico,g,Peso tras 2 días a 10 °C (final),Balanza Ohaus SC 6010,—
+clamshells_peso,pudricion_visible,clamshell,0/1,—,1 si hay pudrición visible,Observación,Control
+clamshells_peso,exudado,clamshell,0/1,—,1 si hay exudado de jugo,Observación,Control
+frutos_visual,caja_id,fruto (grupo 1),texto,—,Caja,—,—
+frutos_visual,fruto_n,fruto (grupo 1),entero,—,1 a 50,—,—
+frutos_visual,pruina_nivel,fruto (grupo 1),entero,nivel,1 (≥75 % pruina) a 4 (<5 %); aceptable 1-2,Escala visual,Secundaria
+frutos_visual,deshid_nivel,fruto (grupo 1),entero,nivel,1 a 5; aceptable 1-2,Escala visual,Secundaria
+frutos_visual,condicion,fruto (grupo 1),categoría,—,aceptable | blando | pudricion (jerarquía: pudricion > blando),Visual y tacto,Primaria (no aceptable = blando o pudricion)
+frutos_firmeza,caja_id,fruto (grupo 2),texto,—,Caja,—,—
+frutos_firmeza,fruto_n,fruto (grupo 2),entero,—,1 a 50,—,—
+frutos_firmeza,firmpro_N_mm,fruto (grupo 2),numérico,N mm-1,Fuerza/deformación a 1 mm de compresión,"FirmPro, plato P/75, 1 mm/s, pulpa 15±1 °C",Primaria
+frutos_firmeza,baxlo_mejilla1_Ush,fruto (grupo 2),numérico,°Ush,"Valor máximo, mejilla 1","Baxlo F0, cilindro 2,38 mm",Secundaria
+frutos_firmeza,baxlo_mejilla2_Ush,fruto (grupo 2),numérico,°Ush,"Valor máximo, mejilla 2","Baxlo F0, cilindro 2,38 mm",Secundaria
+frutos_firmeza,reemplazo,fruto (grupo 2),0/1,—,1 si es fruto de reemplazo de uno blando o podrido,Registro,Control
+frutos_color,caja_id,fruto (grupo 3),texto,—,Caja,—,—
+frutos_color,fruto_n,fruto (grupo 3),entero,—,1 a 50,—,—
+frutos_color,L,fruto (grupo 3),numérico,L*,Luminosidad CIELAB,Konica Minolta CM-2500d,Secundaria
+frutos_color,C,fruto (grupo 3),numérico,C*,Croma CIELAB,Konica Minolta CM-2500d,Secundaria
+frutos_color,h,fruto (grupo 3),numérico,h°,Ángulo de tono CIELAB,Konica Minolta CM-2500d,Secundaria
+calibre_base,caja_id,fruto (base),texto,—,Caja base (B01-B06),—,—
+calibre_base,cultivar,fruto (base),categoría,—,Sekoya Grande | Luna,—,—
+calibre_base,fruto_n,fruto (base),entero,—,1 a 50 por cultivar,—,—
+calibre_base,diametro_mm,fruto (base),numérico,mm,Diámetro ecuatorial,Pie de metro,Descriptiva
+calibre_base,peso_g,fruto (base),numérico,g,Peso individual,Balanza,Descriptiva
+registro_condiciones,evento,tanda/cámara,categoría,—,fumigacion_origen | fumigacion_destino | AC,—,Trazabilidad
+registro_condiciones,concentracion_BM_g_m3,tanda/cámara,numérico,g m-3,Concentración de BM aplicada (objetivo 64),Registro,Trazabilidad
+registro_condiciones,temperatura_C,tanda/cámara,numérico,°C,"Temperatura de fumigación (≥4,5) o de AC (0)",Registro,Trazabilidad
+registro_condiciones,duracion_h,tanda/cámara,numérico,h,Duración de la fumigación (objetivo 3),Registro,Trazabilidad
+registro_condiciones,O2_pct,tanda/cámara,numérico,%,O2 en AC (objetivo 6),Registro,Trazabilidad
+registro_condiciones,CO2_pct,tanda/cámara,numérico,%,CO2 en AC (objetivo 12),Registro,Trazabilidad

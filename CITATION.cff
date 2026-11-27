@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Si usas este repositorio, por favor cítalo con esta información."
+title: "Evaluación de postcosecha en dos cultivares de arándanos sometidos a bromuro de metilo"
+abstract: >-
+  Proyecto de tesis de magíster que evalúa el efecto de la fumigación con
+  bromuro de metilo, aplicada en origen o en destino, sobre la calidad
+  postcosecha de los arándanos 'Sekoya Grande' y 'Luna' almacenados en
+  atmósfera controlada. Incluye protocolo, plan de análisis y código en R.
+authors:
+  - family-names: "Segovia Gregoratti"
+    given-names: "Selene Belén"
+    affiliation: "Universidad de Chile, Facultad de Ciencias Agronómicas, Escuela de Postgrado"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # agrega tu ORCID
+type: software
+date-released: 2026-11-26
+# repository-code: "https://github.com/TU-USUARIO/tesis-arandanos-bromuro-metilo"
+keywords:
+  - arándano
+  - postcosecha
+  - bromuro de metilo
+  - atmósfera controlada
+  - firmeza
+  - tratamientos cuarentenarios
