@@ -20,6 +20,7 @@ La **atmósfera controlada (AC)** reduce el deterioro, pero su efecto varía ent
 
 ![arandano](arandanoss.jpg)
 
+
 ## Pregunta y objetivo
 
 **Objetivo general.** Determinar el efecto de la fumigación con BM, aplicada en origen o en destino, sobre la calidad postcosecha de ‘Sekoya Grande’ y ‘Luna’ almacenados en AC (12 % CO₂, 6 % O₂) a 0 °C durante 35 días, seguidos de 2 días a 5 °C y 2 días a 10 °C (comercialización simulada).
